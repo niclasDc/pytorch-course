@@ -1,1 +1,1 @@
-## Curso de Pytorch para ML y DL
+## Curso de PyTorch para ML y DL
