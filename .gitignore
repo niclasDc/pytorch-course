@@ -1,1 +1,69 @@
-env-pytorch-dl-ml/
+ejercicios/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+env-pytorch-dl-ml/  # Exclude the environment directory
+env-pytorch-dl-ml.zip
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code settings
+.vscode/settings.json
+
+# PyCharm settings
+.idea/workspace.xml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+
+# Other IDEs and editors (optional)
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore all zip files except env-pytorch-dl-ml.zip in the root directory
+!/*.zip
+
+# Ignore all other zip files in subdirectories and in env-pytorch-dl-ml directory.
+env-pytorch-dl-ml/**/*.zip
+
+# Ignore all hidden directories and files, except .gitignore itself.
+.*
+!.gitignore
+
+# Ignore all hidden directories and files in env-pytorch-dl-ml directory.
+env-pytorch-dl-ml/**
+!.gitignore  # Allow .gitignore in env-pytorch-dl-ml directory
