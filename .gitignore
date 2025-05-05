@@ -1,6 +1,7 @@
 ejercicios/
 .vscode/
 .idea/
+models/
 __pycache__/
 *.pyc
 *.pyo
